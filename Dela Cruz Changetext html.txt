@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Change Text</title>
+</head>
+<body>
+	<h1 id="changeText">Hello, World!</h1>
+	<button onclick="changeTextFunction()">Change Text</button>
+
+	<script src="script.js"></script>
+</body>
+</html>
+
+function changeTextFunction() {
+	document.getElementById("changeText").innerHTML = "Text Changed!";
+}

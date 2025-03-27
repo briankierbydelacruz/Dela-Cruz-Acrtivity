@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Change Style</title>
+	<style>
+		#changeStyle {
+			width: 200px;
+			height: 100px;
+			background-color: #f2f2f2;
+			padding: 20px;
+			border: 1px solid #ccc;
+		}
+	</style>
+</head>
+<body>
+	<div id="changeStyle">
+		<p>This is a div element.</p>
+	</div>
+	<button onclick="changeStyleFunction()">Change Style</button>
+
+	<script src="script.js"></script>
+</body>
+</html>
+
+function changeStyleFunction() {
+	var element = document.getElementById("changeStyle");
+	
+	element.style.backgroundColor = "#ff0000"; // change background color to red
+	element.style.padding = "40px"; // increase padding
+	element.style.border = "2px solid #000"; // change border
+}
+
+
