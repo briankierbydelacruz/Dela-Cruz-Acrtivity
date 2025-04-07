@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.traffic-light {
+    width: 100px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.light {
+    width: 60px;
+    height: 60px;
+    background-color: grey;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+.red.active {
+    background-color: red;
+}
+
+.yellow.active {
+    background-color: yellow;
+}
+
+.green.active {
+    background-color: green;
+}f0f0f0;
+}
+
+.traffic-light {
+    width: 100px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.light {
+    width: 60px;
+    height: 60px;
+    background-color: grey;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+.red.active {
+    background-color: red;
+}
+
+.yellow.active {
+    background-color: yellow;
+}
+
+.green.active {
+    background-color: green;
+}
